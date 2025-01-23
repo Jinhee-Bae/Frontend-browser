@@ -4,10 +4,12 @@ body {
 
 .background {
   display: block;
-  background-color: #ffe4fa;
+  background-color: #f695e4;
   border-radius: 20px;
-  width: 50%;
-  text-align: center
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .container {
@@ -15,7 +17,7 @@ body {
 
 h1 {
   margin: auto;
-  padding-top:  10px;
+  padding-top: 10px;
 }
 
 .inlineBox {
@@ -25,8 +27,7 @@ h1 {
 }
 
 .item {
-  display: none;
-  /*display: flex;*/
+  display: flex;
   margin-right: 30px;
 }
 
