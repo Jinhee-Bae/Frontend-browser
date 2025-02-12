@@ -24,6 +24,7 @@ h1 {
   background-color: aliceblue;
   height: 500px;
   position: relative;
+  overflow: scroll;
 }
 
 .item {
