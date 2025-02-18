@@ -21,6 +21,7 @@ function onAdd() {
 
   // 4. scroll to the new added item
   item.scrollIntoView({ block: 'center' });
+
   // 5. clear the input value
   input.value = '';
   input.focus();
