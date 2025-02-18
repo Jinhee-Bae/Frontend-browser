@@ -1,9 +1,9 @@
-/* consider the following:
-as a object orient Programming language, make a good use of nasting. put createItem function inside of onAdd() function. therefore createItem() function can only used through onAdd() funtion.*/
-
 const addBtn = document.querySelector('.footer__button');
 const input = document.querySelector('.footer__input');
 const items = document.querySelector('.items');
+
+/* consider the following:
+as a object orient Programming language, make a good use of nasting. put createItem function inside of onAdd() function. therefore createItem() function can only used through onAdd() funtion.*/
 
 function onAdd() {
   // 1. take the input value from the user
