@@ -45,8 +45,7 @@ function createItem(text) {
         <i class="fas fa-trash-alt" data-id=${id}></i>
       </button>
     </div>
-    <div class="item__divider"></div>
-`;
+    <div class="item__divider"></div>`;
   id++;
   return itemRow;
 }
